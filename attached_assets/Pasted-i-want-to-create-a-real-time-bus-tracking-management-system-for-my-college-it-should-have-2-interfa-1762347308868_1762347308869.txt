@@ -1,0 +1,24 @@
+i want to create a real time bus tracking management system for my college
+it should have 2 interface Admin and Student both should have a login page
+For admin interface set login id as admin and password as admin123
+once logged in it should have navigation bar (student and buses)
+for student page it should gather details from admin like student name, login id ,password,, register number, age, bloodgroup, bus route, area ,bus stop, buspass status ,
+for buses page it should gather details from admin like driver name, driver ph no, bus name, bus via, bus number, bus route number.
+both should have save and add other another option.
+once add button clicked it should be updated in the database.
+
+For student interface :
+it should ask for the login page with login id and password. once the admin upload . the student ref no and password from database should be linked with student login page
+for every student it should have their own  login id password once the login id and password is entered right it should direct to home page of the site
+navigation bar(Profile, buses, feedback, contact,logout)
+Profile : all information of student should be displayed (collected from admin)
+make sure that respective student details should be displayed to respective login id and password make sure displayed in attractive way.
+others details should not be displayed and in profile page it should ask for upload photo . and one student can upload photo once and after that it cannot be uploaded.
+buses : It should be like a card make atleast 10 cards . it should have the bus photo the a few details on outlook like name and route, etc.
+once respective bus card  is clicked by student it should display the respective bus location and below that the details of buses and driver collected from admin should be displayed attractively.
+feedback : it is key of my project make user friendly .it should collect quries and feedback from parents and students , make sure ref number and name of student is collected then query.
+contact : Institute contact details should be displayed
+logout : clicking it, it should logout the page.
+
+and add notification concept. like if the bus is nearing the stop the site should notify the student with notification.
+for firebase ask api keys i will give and make a unique and attractive theme for site and it should have hover effects . dont make in simple manner design like a pro as you can design .
