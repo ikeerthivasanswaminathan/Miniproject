@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+.env
+college_bus_tracker.db
+node_modules/
+package-lock.json
+.idea/
+.vscode/
+*.log
+student_photos/
+__pycache__/
+*.sqlite3
