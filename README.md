@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Title of the Project
 Small description about the project like one below
 The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
@@ -57,3 +58,83 @@ This project serves as a foundation for future developments in assistive technol
 
 
 
+=======
+# College Bus Tracking Management System
+
+A real-time bus tracking system built for Saveetha Engineering College with admin and student interfaces.
+
+## Features
+
+### Admin Interface
+- Login: username `admin`, password `admin123`
+- Add and manage student records (name, login, password, register number, age, blood group, bus route, area, bus stop, bus pass status)
+- Add and manage bus records (driver info, bus details, route information)
+- Update bus locations in real-time via Firebase
+- Live location tracking for all buses
+
+### Student Interface
+- Personalized login with credentials set by admin
+- Profile page with one-time photo upload
+- Interactive bus cards with live tracking
+- Real-time bus location on Chennai, Tamil Nadu map
+- Proximity notifications when bus approaches student's stop
+- Feedback system for queries and concerns
+- Contact information page
+
+## Tech Stack
+
+- **Frontend**: Streamlit with custom CSS
+- **Database**: PostgreSQL (via Replit)
+- **Real-time Updates**: Firebase Realtime Database
+- **Maps**: Folium with OpenStreetMap
+- **Location**: Geopy for distance calculations
+
+## Firebase Setup (Optional for Full Real-Time Tracking)
+
+For complete real-time tracking with GPS-enabled bus drivers, you'll need to:
+
+1. Create a Firebase project at https://console.firebase.google.com/
+2. Enable Firebase Realtime Database
+3. Download your service account JSON file
+4. Upload the service account JSON content as `FIREBASE_SERVICE_ACCOUNT` secret
+
+Currently, the system stores Firebase credentials in environment variables and allows manual location updates through the admin interface.
+
+## Default Configuration
+
+- Default map center: Chennai, Tamil Nadu (13.0827°N, 80.2707°E)
+- Proximity notification threshold: 2 km
+- Theme colors: Yellow (#FFD700), Orange (#FFA500), Purple (#6B46C1)
+
+## Usage
+
+### Admin Workflow
+1. Login with admin/admin123
+2. Navigate to "Students" tab to add student records
+3. Navigate to "Buses" tab to add bus records
+4. Use the location update feature to simulate bus movement
+5. Buses sync with Firebase for real-time updates
+
+### Student Workflow
+1. Login with credentials provided by admin
+2. View personal profile and upload photo (one-time only)
+3. Browse available buses as interactive cards
+4. Click on any bus card to see live location on map
+5. Receive notifications when bus approaches your stop
+6. Submit feedback or queries through the feedback form
+
+## Color Scheme
+
+The application uses the college's vibrant color scheme inspired by the yellow Saveetha Engineering College buses:
+- Primary: Golden Yellow (#FFD700)
+- Secondary: Orange (#FFA500)
+- Accent: Purple (#6B46C1)
+- Gradients for modern, attractive UI
+
+## Security Notes
+
+- Admin credentials are hardcoded for demonstration (change for production)
+- Student passwords are stored in plain text (use hashing for production)
+- Firebase service account should be properly secured
+- All photos are stored locally in `student_photos/` directory
+>>>>>>> 28784f1 (Integrate Firebase for real-time bus location tracking and updates)
