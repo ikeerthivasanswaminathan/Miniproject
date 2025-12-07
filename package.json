@@ -1,0 +1,17 @@
+{
+  "name": "collegebustracker",
+  "version": "1.0.0",
+  "description": "A real-time bus tracking system built for Saveetha Engineering College with admin and student interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase": "^12.6.0"
+  }
+}
